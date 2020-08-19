@@ -1,5 +1,5 @@
 # Leetcode
-在职人士 leetcode刷题之旅
+leetcode刷题之旅
 ## src文件下
 solution文件夹是普通问题的解决，对应的编号是问题编号
 一般带有中文注释
