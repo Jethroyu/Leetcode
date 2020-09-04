@@ -1,4 +1,4 @@
-package Solution.question111;
+package solution.question111;
 
 import template.TreeNode;
 

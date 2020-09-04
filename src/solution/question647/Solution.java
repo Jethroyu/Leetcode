@@ -1,4 +1,4 @@
-package Solution.question647;
+package solution.question647;
 
 class Solution {
     public int countSubstrings(String s) {
