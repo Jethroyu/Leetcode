@@ -1,6 +1,5 @@
 package solution.question47;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -23,12 +22,14 @@ class Solution {
         cutLength = nums.length;
         LinkedList<Integer> list = new LinkedList<>();
         boolean[] sign = new boolean[nums.length];
+        Set<Integer> flag = new HashSet<>();
         for (int i = 0; i < sign.length; i++){
-            if (!sign[i]){
+            if (!sign[i] && !flag.contains(nums[i])){
                 boolean[] temp = Arrays.copyOf(sign,sign.length);
                 LinkedList<Integer> tempList = new LinkedList<>(list);
                 temp[i] = true;
                 tempList.add(nums[i]);
+                flag.add(nums[i]);
                 DFS(tempList,temp);
             }
         }
@@ -43,12 +44,14 @@ class Solution {
             }
         }
         else {
+            Set<Integer> flag = new HashSet<>();
             for (int i = 0; i < sign.length; i++){
                 if (!sign[i]){
                     boolean[] temp = Arrays.copyOf(sign,sign.length);
                     LinkedList<Integer> tempList = new LinkedList<>(now);
                     temp[i] = true;
                     tempList.add(nums[i]);
+                    flag.add(nums[i]);
                     DFS(tempList,temp);
                 }
             }
