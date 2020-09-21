@@ -1,4 +1,4 @@
-package solution.question257;
+package problemset.question257;
 
 /**
  * @author shidu
@@ -7,7 +7,6 @@ package solution.question257;
 
 import template.TreeNode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

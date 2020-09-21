@@ -1,9 +1,8 @@
-package solution.question143;
+package problemset.question143;
 
 import template.ListNode;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @author shidu

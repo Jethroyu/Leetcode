@@ -1,7 +1,6 @@
-package solution.question1;
+package problemset.question1;
 
 import java.util.HashMap;
-import java.util.Scanner;
 
 /**
  * 扫一遍hash表

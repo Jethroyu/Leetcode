@@ -1,4 +1,4 @@
-package solution.question110;
+package problemset.question110;
 
 import template.TreeNode;
 

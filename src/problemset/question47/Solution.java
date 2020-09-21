@@ -1,4 +1,4 @@
-package solution.question47;
+package problemset.question47;
 
 import java.util.*;
 
